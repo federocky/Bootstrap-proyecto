@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Fontawesome-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <!--Fuentes-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Courgette&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,200;1,300;1,400&display=swap" rel="stylesheet">
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="./dist/css/bootstrap.css">
+
+    <!--estilos-->
+    <link rel="stylesheet" href="estilos.css">
+    <title>Mimascota.com</title>
+</head>
+<body>
+
+    <header>
+      <!--BARA SUPERIOR-->  
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-md">
+                
+                <div class="row justify-content-between col-12">
+                    
+                    
+                    <a class="navbar-brand col" href="#">
+                        <img src="./icons/logo-pagina.png" alt="" width="30" height="24">
+                    </a>
+                    
+                    <h1 class="text-white fs-1 col">Mimascota<span class="text-primary">.com</span></h1>
+                    
+                    <div class="col d-flex justify-content-end fs-3">
+                        <a href="" class="text-decoration-none"><i class="fas fa-shopping-cart text-white cursor:pointer"></i></a>
+                        <a href="" class="text-decoration-none"><i class="fas fa-user user-icon text-white cursor-pointer ms-3 "></i></a>
+                    </div>
+                    
+                    <button class="navbar-toggler col-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <!-- <h1 class="text-white">aqui va el contenido del nav</h1> -->
+                    </div>
+                    
+                </div>
+            </div>
+        </nav>
+
+        <!--MENU NAVEGACION ESCRITORIO-->
+        <nav class="bg-primary">
+            <div class="container-md">
+                <div class="btn-group w-100 d-flex" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-primary text-white">Inicio</button>
+                    <button type="button" class="btn btn-primary text-white">Guardería</button>
+                    <button type="button" class="btn btn-primary text-white">Paseos</button>
+                    <button type="button" class="btn btn-primary text-white">Tienda</button>
+                    <button type="button" class="btn btn-primary text-white">Peluquería</button>
+                    <button type="button" class="btn btn-primary text-white">Contacto</button>
+                </div>
+            </div>
+        </nav>
+
+        <!--Slider-->
+        <section>
+            <div id="carouselExampleIndicators" class="carousel slide mh-200px" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./img/slider/slider-gato-casa-editada.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./img/slider/amigos-perro-gato-calle-editada.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./img/slider/perro-manta-slide-editada.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+              </div>
+        </section>
+
+
+    </header>
+
+    <main class="bg-light">
+
+        <h2 class="text-center text-decoration-underline py-4">¿Pasas mucho tiempo fuera de casa?</h2>
+
+        <!--CARDS PRESENTACION-->
+        <section class="cards container-md">
+
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+
+                <div class="col">
+                <div class="card text-center">
+                    <img src="./img/index-card/index-paseo.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Paseos por horas</h5>
+                    <p class="card-text">En nuestra guarderia tu mascot podra jugar, corer y divertirse con otros amigos y nuestros adiestradores.</p>
+                    </div>
+                </div>
+                </div>
+
+                <div class="col">
+                <div class="card text-center">
+                    <img src="./img/index-card/index-perro-fuera.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Lo cuidamos en casa</h5>
+                    <p class="card-text">En nuestra guarderia tu mascot podra jugar, corer y divertirse con otros amigos y nuestros adiestradores.</p>
+                    </div>
+                </div>
+                </div>
+
+                <div class="col">
+                <div class="card text-center">
+                    <img src="./img/index-card/index-paseo 2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Tráelo con nostros</h5>
+                    <p class="card-text">En nuestra guarderia tu mascot podra jugar, corer y divertirse con otros amigos y nuestros adiestradores.</p>
+                    </div>
+                </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!--TEXTO INFORMATIVO-->
+        <section class="container-sm d-flex justify-content-center text-center mt-5">
+            <p class="col-10">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur quam id posuere rhoncus. Praesent lorem turpis, laoreet sed mi dignissim, semper pretium diam. Aliquam suscipit dui nunc. Etiam vitae ligula fringilla, volutpat augue ut, tincidunt eros. Quisque interdum feugiat magna, id pellentesque eros consequat ut. Nullam sodales nunc a pulvinar mattis. Morbi a nunc et justo venenatis dictum. Mauris velit mi, posuere et porttitor at, maximus id purus.sum commodo, dignissim velit.</p>
+        </section>
+
+
+        <h2 class="text-center text-decoration-underline py-4">¿Productos destacados?</h2>
+
+
+    </main>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</body>
+</html>
