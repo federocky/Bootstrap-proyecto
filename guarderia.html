@@ -111,7 +111,75 @@
 
     </header>
 
-    <main>
+    <main class="bg-light">
+
+        <h2 class="text-center text-decoration-underline py-4">¿Guardería con nosotros o en casa?</h2>
+
+        <!--FILTROS DE RESERVA-->
+        <section class="container-md border border-primary border-5 rounded-3 p-4 fw-bold">
+
+                <div class="row">
+
+                    <div class="col d-flex mb-1">
+                        <div class="form-check me-3">
+                            <input class="form-check-input" name="fecha" type="radio">
+                            <label class="form-check-label" for="flexRadioDefault1">
+                                En casa
+                            </label>
+                        </div>
+                        
+                        <div class="col form-check">
+                            <input class="form-check-input" name="fecha" type="radio" checked>
+                            <label class="form-check-label" for="flexRadioDefault2">
+                                En nuestras instalaciones
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="col d-xl-flex ">
+
+                        <div class="col d-flex justify-content-around mb-2">
+                            <label for="bday">Inicio:</label>
+                            <input type="date" id="bday" name="bday">
+                        </div>
+                        <div class="col d-flex justify-content-around mb-2">
+                            <label for="bday">Fín:</label>
+                            <input type="date" id="bday" name="bday">
+                        </div>
+                    </div>
+                      
+                </div>
+
+                <div class="row mt-2 d-flex justify-content-end">
+                    <button class="col-md-4 col-lg-3 btn btn-secondary text-white fw-bold">Reservar <i class="fas fa-shopping-cart"></i></button>
+                </div>
+
+
+
+        </section>
+
+        <!--INFORMACION-->
+        <section class="container-md"> 
+            <h2 class="text-center text-decoration-underline py-4">¿Como funciona?</h2>
+
+            <div class="card mb-3 bg-light">
+                <div class="row g-0 d-flex justify-content-between align-items-center">
+
+                    <div class="col-md-6">
+                        <div class="card-body text-center">
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur quam id posuere rhoncus. Praesent lorem turpis, laoreet sed mi dignissim, semper pretium diam. Aliquam suscipit dui nunc. Etiam vitae ligula fringilla, volutpat augue ut, tincidunt eros. Quisque interdum feugiat magna, id pellentesque eros consequat ut. Nullam </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <img src="./img/guarderia1.jpg" class="img-fluid" alt="...">
+                    </div>
+
+                </div>
+              </div>
+
+        </section>
+
 
     </main>
 

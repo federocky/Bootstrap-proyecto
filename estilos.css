@@ -25,6 +25,15 @@ h5{
     font-size: 22px;
 }
 
+.oferta{
+    border: 6px dashed #03A9F4;
+}
+
+.tarjeta{
+    border: 4px dashed;
+}
+
 /* font-family: 'Architects Daughter', cursive;
 font-family: 'Courgette', cursive;
 font-family: 'Poppins', sans-serif; */
+
