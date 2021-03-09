@@ -1,20 +1,19 @@
-/* i {
-    font-family: "FontAwesome";
-} */
 
-h1, .logo{
+/*FUENTE ESPECIAL PARA EL LOGO-TITULO*/
+.logo{
     font-family: 'Architects Daughter', cursive;
 }
 
-h2{
-    font-family: 'Courgette';
-    font-size: 30px;
-}
-
+/*COLOR EXTRA NECESARIO PARA LAS ESTRELLAS*/
 .stars{
     color: yellow;
 }
 
+
+/*
+HE AGREGADO LA FUENTE COURGUETTE PARA LOS HEADER PERO TAMBIEN LA QUIERO AQUI EN EL PRECIO
+Y ABAJO EN EL H5 PREFIERO LA POPPINS QUE ME PARECE MEJOR EN ESTILO PARA ESTE CASO.
+*/
 .precio {
     font-family: 'Courgette';
     font-size: 30px;
@@ -25,6 +24,7 @@ h5{
     font-size: 22px;
 }
 
+/*NO HE PODIDO PONER BORDER DASHED, CREO QUE NO TIENE ESA OPCION BOOTSTRAP*/
 .oferta{
     border: 6px dashed #03A9F4;
 }
@@ -32,8 +32,3 @@ h5{
 .tarjeta{
     border: 4px dashed;
 }
-
-/* font-family: 'Architects Daughter', cursive;
-font-family: 'Courgette', cursive;
-font-family: 'Poppins', sans-serif; */
-
